@@ -1,0 +1,49 @@
+# Formelsammlung
+
+Diese Formelsammlung enthält Formeln der folgenden Fächer:
+
+- Mathematik
+- Physik
+- Informatik
+
+## 1. Mathematik
+1. Dreiecksfläche
+> $A =  \frac{1}{2}\cdot g  \cdot h$ 
+
+2. Gleichschenkliges Dreieck. Alle drei Seiten sind gleich Lang
+> $A= \frac{\sqrt{3}}{4}\cdot a^2$
+
+## 2. Physik
+### **Gleichförmige Bahnbewegung und Kreisbewegung**
+Bewegungsgleichung für die gleichförmige lineare Bewegung:
+> $v= \frac{\Delta s}{\Delta t}$
+
+## 3. Informatik
+### **Java Befehle und Beispiele**
+Um Java zu testen, muss eine `JRE` oder eine `JDK` heruntergeladen und installierte werden. Diese ist auf dwer Website von Oracle zu finden
+
+**1. Ausgabe**
+
+Ausgeben des Textes `Hallo Welt` und auf der Konsole  in einer Ausführbaren Klasse
+````Java
+public class AusgabeKlasse{
+    public static void main (){
+        System.out.print("Hallo Welt")
+    }
+}
+````
+
+**2. Verzweigung**
+
+Gib den Text "Es ist kalt" aus, wenn Variable `temp<10` ist. Ansonsten gib den Text " Es ist warm" aus
+````Java
+//Code innerhalb einer Methode z.B. die main- Methode
+if(temp<10{
+    System.out.ptint("Es istt kalt");
+}
+else{
+    System.out.print("Es ist warm");
+}
+})
+````
+
